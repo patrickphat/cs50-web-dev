@@ -1,0 +1,18 @@
+.success, .warning, .info {
+  font-family: san-serif;
+  font-size: 18pX;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: green; }
+
+.warning {
+  background-color: red; }
+
+.info {
+  background-color: blue; }
+
+/*# sourceMappingURL=inheritance.css.map */
