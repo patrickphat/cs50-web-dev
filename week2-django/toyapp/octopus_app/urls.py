@@ -7,4 +7,5 @@ urlpatterns = [
     path("hey_patrick/", views.hey_patrick, name="hey_patrick"),
     path("coolest_page/", views.coolest_page, name="coolest_page"),
     path("<str:name>", views.greet, name="greet"),
+    path("html_greet/<str:name>", views.html_greet, name="html_greet"),
 ]

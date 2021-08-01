@@ -15,4 +15,9 @@ def hey_patrick(request):
     return HttpResponse("Hey Patrick!")
 
 def greet(request, name):
-    return HttpResponse(f"Hello, {name.capitalize()}!")
+    return HttpResponse(f"Hello {name}!")
+
+def html_greet(request, name):
+    return render(request, "greet/index.html", {
+        "name": name.capitalize(),
+    })
