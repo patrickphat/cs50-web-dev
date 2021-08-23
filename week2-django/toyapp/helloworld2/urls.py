@@ -18,5 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("octopus_app/",include("octopus_app.urls"))
+    path("octopus_app/",include("octopus_app.urls")),
+    path("newyear/", include("newyear.urls")),
+    path("tasks/", include("tasks.urls")),
 ] 

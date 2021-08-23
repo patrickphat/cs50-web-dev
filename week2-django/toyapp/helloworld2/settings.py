@@ -31,7 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "newyear",
     'octopus_app',
+    "tasks",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
